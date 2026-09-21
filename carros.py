@@ -21,13 +21,13 @@ ARQUIVO = "carros.csv"
 # =========================================================
 
 IMAGEM_HERO = (
-    "https://images.unsplash.com/"
+    "https://unsplash.com"
     "photo-1492144534655-ae79c964c9d7"
     "?auto=format&fit=crop&w=1800&q=90"
 )
 
 IMAGEM_FROTA = (
-    "https://images.unsplash.com/"
+    "https://unsplash.com"
     "photo-1502877338535-766e1452684a"
     "?auto=format&fit=crop&w=1200&q=85"
 )
@@ -41,7 +41,7 @@ st.markdown(f"""
 <style>
 
 @import url(
-'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'
+'https://googleapis.com'
 );
 
 /* =========================================================
@@ -151,9 +151,7 @@ HERO
     overflow: hidden;
     margin-bottom: 35px;
 
-    background-image: url('{IMAGEM_HERO}');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(135deg, #162630 0%, #2c3e46 100%);
 
     box-shadow:
         0 15px 35px rgba(0,0,0,0.22);
@@ -499,3 +497,4 @@ st.markdown(f"""
     <div class="hero-content">
         <div class="hero-number">{total_veiculos}</div>
         <div class="hero-title">Veículos na Frota Ativa</div>
+        <div class="hero-text">Gerencie o inventário da sua concessionária de forma ágil, integrada e com atualização em tempo real utilizando nossa plataforma profissional.</div>
