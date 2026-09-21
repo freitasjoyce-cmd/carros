@@ -21,13 +21,13 @@ ARQUIVO = "carros.csv"
 # =========================================================
 
 IMAGEM_HERO = (
-    "https://images.unsplash.com/"
+    "https://unsplash.com"
     "photo-1492144534655-ae79c964c9d7"
     "?auto=format&fit=crop&w=1800&q=90"
 )
 
 IMAGEM_FROTA = (
-    "https://images.unsplash.com/"
+    "https://unsplash.com"
     "photo-1502877338535-766e1452684a"
     "?auto=format&fit=crop&w=1200&q=85"
 )
@@ -484,7 +484,7 @@ def salvar_dados(df):
 df_carros = carregar_dados()
 total_veiculos = len(df_carros)
 
-# --- SIDEBAR BAR ---
+# --- SIDEBAR ---
 with st.sidebar:
     st.markdown('<p class="logo-title">🚗 AutoCadastro</p>', unsafe_allow_html=True)
     st.markdown('<p class="logo-subtitle">SISTEMA PRO v2.0</p>', unsafe_allow_html=True)
