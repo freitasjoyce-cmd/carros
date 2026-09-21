@@ -499,3 +499,5 @@ st.markdown(f"""
     <div class="hero-content">
         <div class="hero-number">{total_veiculos}</div>
         <div class="hero-title">Veículos na Frota Ativa</div>
+</div>
+""", unsafe_allow_html=True)
