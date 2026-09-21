@@ -21,13 +21,13 @@ ARQUIVO = "carros.csv"
 # =========================================================
 
 IMAGEM_HERO = (
-    "https://unsplash.com"
+    "https://images.unsplash.com/"
     "photo-1492144534655-ae79c964c9d7"
     "?auto=format&fit=crop&w=1800&q=90"
 )
 
 IMAGEM_FROTA = (
-    "https://unsplash.com"
+    "https://images.unsplash.com/"
     "photo-1502877338535-766e1452684a"
     "?auto=format&fit=crop&w=1200&q=85"
 )
@@ -41,7 +41,7 @@ st.markdown(f"""
 <style>
 
 @import url(
-'https://googleapis.com'
+'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'
 );
 
 /* =========================================================
@@ -499,5 +499,3 @@ st.markdown(f"""
     <div class="hero-content">
         <div class="hero-number">{total_veiculos}</div>
         <div class="hero-title">Veículos na Frota Ativa</div>
-</div>
-""", unsafe_allow_html=True)
