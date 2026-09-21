@@ -498,3 +498,5 @@ st.markdown(f"""
         <div class="hero-number">{total_veiculos}</div>
         <div class="hero-title">Veículos na Frota Ativa</div>
         <div class="hero-text">Gerencie o inventário da sua concessionária de forma ágil, integrada e com atualização em tempo real utilizando nossa plataforma profissional.</div>
+</div>
+""", unsafe_allow_html=True)
